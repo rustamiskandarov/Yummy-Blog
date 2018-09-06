@@ -14,8 +14,8 @@ class AddFilterSlugColumnToPortfolio extends Migration
     public function up()
     {
         Schema::table('portfolios', function (Blueprint $table) {
-          $table->integer('filter_slug');
-          $table->foreign('filter_slug')->references('slug')->on('filters');
+          $table->integer('filter_alias');
+          $table->foreign('filter_alias')->references('alias')->on('filters');
         });
     }
 

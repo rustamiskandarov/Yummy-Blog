@@ -1487,3 +1487,7 @@ li {
 	color: #fff;
 	cursor: pointer;
 }
+
+.active-item {
+    background-color:rgba(252, 108, 63, 0.09);
+}

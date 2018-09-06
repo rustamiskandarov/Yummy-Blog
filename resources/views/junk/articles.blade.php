@@ -3,12 +3,9 @@
 @section('main-menu')
     {!! $navigation !!}
 @endsection
-@section('slider')
-    {!! $slider !!}
-@endsection
 
-@section('portfolio_content')
-    {!! $portfolio_content !!}
+@section('articles_content')
+    {!! $articles_content !!}
 @endsection
 
 @section('sidebar')
